@@ -15,8 +15,12 @@ function App() {
   };
 
   const calculadorResultado = () => {
-    setInput(evaluate(input));
-  }
+    if (input) {
+      setInput(evaluate(input));
+    } else {
+      alert('Por favor ingrese valores para realizar los cálculos.');
+    }    
+  };
   
   return (
     <div className='App'>
