@@ -1,4 +1,4 @@
-## Calculadora
+# Calculadora
 Curso 'Aprende React Desde Cero FreeCodeCamp' impartida por Estefania Cassingena Navone.
 
 Aplicación de calculadora desarrollada con React.
